@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SurrondedCore.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Surrounded.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SurroundedXcode.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A7DE8895257F2CC900451E6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7DE88AD257F2CF300451E6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7DE88C8257F2D1400451E6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7DE88D0257F2D1400451E6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
