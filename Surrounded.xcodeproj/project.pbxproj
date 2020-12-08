@@ -3,264 +3,122 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7DE889A257F2CC900451E6C /* SurroundedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8899257F2CC900451E6C /* SurroundedApp.swift */; };
-		A7DE889C257F2CC900451E6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE889B257F2CC900451E6C /* ContentView.swift */; };
-		A7DE889E257F2CCA00451E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DE889D257F2CCA00451E6C /* Assets.xcassets */; };
-		A7DE88A1257F2CCA00451E6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DE88A0257F2CCA00451E6C /* Preview Assets.xcassets */; };
-		A7DE88B1257F2CF300451E6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE88B0257F2CF300451E6C /* Cocoa.framework */; };
-		A7DE88B3257F2CF300451E6C /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE88B2257F2CF300451E6C /* XcodeKit.framework */; };
-		A7DE88B6257F2CF300451E6C /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE88B5257F2CF300451E6C /* SourceEditorExtension.swift */; };
-		A7DE88B8257F2CF300451E6C /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE88B7257F2CF300451E6C /* SourceEditorCommand.swift */; };
-		A7DE88BD257F2CF300451E6C /* SurroundedXcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7DE88AE257F2CF300451E6C /* SurroundedXcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A7DE8912257F2F6800451E6C /* SurroundedCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE8909257F2F6700451E6C /* SurroundedCore.framework */; };
-		A7DE8919257F2F6800451E6C /* SurroundedCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8918257F2F6800451E6C /* SurroundedCoreTests.swift */; };
-		A7DE891E257F2F6800451E6C /* SurroundedCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE8909257F2F6700451E6C /* SurroundedCore.framework */; };
-		A7DE891F257F2F6800451E6C /* SurroundedCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE8909257F2F6700451E6C /* SurroundedCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A7DE8930257F2FAD00451E6C /* SurroundedCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE892F257F2FAD00451E6C /* SurroundedCore.swift */; };
+		0C987EB9BC200307ED54F0BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A3AD928FD3534E81B544A /* ContentView.swift */; };
+		20DC3A1254288BD71AE1F26B /* SurroundedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789885321AA6AC18F60E0F3F /* SurroundedApp.swift */; };
+		4273E4E789DF893BA535A690 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE98CDA0474F626A68B343E /* Preview Assets.xcassets */; };
+		CBF1633F6E5DCE6AF893FD56 /* SurroundedCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924903AC623044EA49C303D4 /* SurroundedCore.swift */; };
+		E3548586D6B488265425CFC5 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8042910F7897B3708D1D45 /* SourceEditorCommand.swift */; };
+		E7EE5BCA0D7D947D94A68F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE39430EB8EF6E11F13981 /* Assets.xcassets */; };
+		EE9B0A81F2D29B5E0BFC8A2D /* SurroundedCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B8FD8EDEBCFA7FBC5296D /* SurroundedCoreTests.swift */; };
+		F08D98AD2414758EA320925C /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6160C8A3C0D4671D80122 /* SourceEditorExtension.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A7DE88BB257F2CF300451E6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7DE888E257F2CC900451E6C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7DE88AD257F2CF300451E6C;
-			remoteInfo = SurroundedXcode;
-		};
-		A7DE8913257F2F6800451E6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7DE888E257F2CC900451E6C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7DE8908257F2F6700451E6C;
-			remoteInfo = SurroundedCore;
-		};
-		A7DE8915257F2F6800451E6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7DE888E257F2CC900451E6C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7DE8895257F2CC900451E6C;
-			remoteInfo = Surrounded;
-		};
-		A7DE891C257F2F6800451E6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7DE888E257F2CC900451E6C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7DE8908257F2F6700451E6C;
-			remoteInfo = SurroundedCore;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A7DE88C1257F2CF300451E6C /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				A7DE88BD257F2CF300451E6C /* SurroundedXcode.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE88E3257F2D1400451E6C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A7DE891F257F2F6800451E6C /* SurroundedCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		A7DE8896257F2CC900451E6C /* Surrounded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surrounded.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7DE8899257F2CC900451E6C /* SurroundedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedApp.swift; sourceTree = "<group>"; };
-		A7DE889B257F2CC900451E6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A7DE889D257F2CCA00451E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A7DE88A0257F2CCA00451E6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A7DE88A2257F2CCA00451E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DE88A3257F2CCA00451E6C /* Surrounded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Surrounded.entitlements; sourceTree = "<group>"; };
-		A7DE88AE257F2CF300451E6C /* SurroundedXcode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SurroundedXcode.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7DE88B0257F2CF300451E6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		A7DE88B2257F2CF300451E6C /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
-		A7DE88B5257F2CF300451E6C /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
-		A7DE88B7257F2CF300451E6C /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
-		A7DE88B9257F2CF300451E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DE88BA257F2CF300451E6C /* SurroundedXcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SurroundedXcode.entitlements; sourceTree = "<group>"; };
-		A7DE8909257F2F6700451E6C /* SurroundedCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SurroundedCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7DE890C257F2F6700451E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DE8911257F2F6800451E6C /* SurroundedCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurroundedCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7DE8918257F2F6800451E6C /* SurroundedCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedCoreTests.swift; sourceTree = "<group>"; };
-		A7DE891A257F2F6800451E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DE892F257F2FAD00451E6C /* SurroundedCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedCore.swift; sourceTree = "<group>"; };
+		0A52DEC7A77CE212C014C7DB /* Surrounded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surrounded.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB6160C8A3C0D4671D80122 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		2A34A574858F7B8B39E3A118 /* SurroundedXcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SurroundedXcode.entitlements; sourceTree = "<group>"; };
+		2E5A3AD928FD3534E81B544A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37378096985A875870B118E7 /* SurroundedCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SurroundedCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E0BCA61113292D1112522D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E3B2055A089A1D4898B7567 /* SurroundedXcode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SurroundedXcode.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEE39430EB8EF6E11F13981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		789885321AA6AC18F60E0F3F /* SurroundedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedApp.swift; sourceTree = "<group>"; };
+		7B1F2BED52806285303E0A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F4B8FD8EDEBCFA7FBC5296D /* SurroundedCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedCoreTests.swift; sourceTree = "<group>"; };
+		84E26EB0C2A232DB0ABF385B /* Surrounded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Surrounded.entitlements; sourceTree = "<group>"; };
+		8C66A2AFE9013A9FF30F7131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		924903AC623044EA49C303D4 /* SurroundedCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedCore.swift; sourceTree = "<group>"; };
+		BB8042910F7897B3708D1D45 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		C77F84346F7E2772FC190950 /* SurroundedCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurroundedCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE98CDA0474F626A68B343E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDE71912C9E8842B1A0E8298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A7DE8893257F2CC900451E6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7DE891E257F2F6800451E6C /* SurroundedCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE88AB257F2CF300451E6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7DE88B1257F2CF300451E6C /* Cocoa.framework in Frameworks */,
-				A7DE88B3257F2CF300451E6C /* XcodeKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE8906257F2F6700451E6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE890E257F2F6800451E6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7DE8912257F2F6800451E6C /* SurroundedCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		A7DE888D257F2CC900451E6C = {
+		008ACBC932F5B90705A2A7D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7DE8898257F2CC900451E6C /* Surrounded */,
-				A7DE88B4257F2CF300451E6C /* SurroundedXcode */,
-				A7DE890A257F2F6700451E6C /* SurroundedCore */,
-				A7DE8917257F2F6800451E6C /* SurroundedCoreTests */,
-				A7DE88AF257F2CF300451E6C /* Frameworks */,
-				A7DE8897257F2CC900451E6C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A7DE8897257F2CC900451E6C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A7DE8896257F2CC900451E6C /* Surrounded.app */,
-				A7DE88AE257F2CF300451E6C /* SurroundedXcode.appex */,
-				A7DE8909257F2F6700451E6C /* SurroundedCore.framework */,
-				A7DE8911257F2F6800451E6C /* SurroundedCoreTests.xctest */,
+				0A52DEC7A77CE212C014C7DB /* Surrounded.app */,
+				37378096985A875870B118E7 /* SurroundedCore.framework */,
+				C77F84346F7E2772FC190950 /* SurroundedCoreTests.xctest */,
+				5E3B2055A089A1D4898B7567 /* SurroundedXcode.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7DE8898257F2CC900451E6C /* Surrounded */ = {
+		0F0E80F436B9E7B36C569FC7 /* SurroundedCore */ = {
 			isa = PBXGroup;
 			children = (
-				A7DE8899257F2CC900451E6C /* SurroundedApp.swift */,
-				A7DE889B257F2CC900451E6C /* ContentView.swift */,
-				A7DE889D257F2CCA00451E6C /* Assets.xcassets */,
-				A7DE88A2257F2CCA00451E6C /* Info.plist */,
-				A7DE88A3257F2CCA00451E6C /* Surrounded.entitlements */,
-				A7DE889F257F2CCA00451E6C /* Preview Content */,
-			);
-			path = Surrounded;
-			sourceTree = "<group>";
-		};
-		A7DE889F257F2CCA00451E6C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A7DE88A0257F2CCA00451E6C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A7DE88AF257F2CF300451E6C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A7DE88B0257F2CF300451E6C /* Cocoa.framework */,
-				A7DE88B2257F2CF300451E6C /* XcodeKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A7DE88B4257F2CF300451E6C /* SurroundedXcode */ = {
-			isa = PBXGroup;
-			children = (
-				A7DE88B5257F2CF300451E6C /* SourceEditorExtension.swift */,
-				A7DE88B7257F2CF300451E6C /* SourceEditorCommand.swift */,
-				A7DE88B9257F2CF300451E6C /* Info.plist */,
-				A7DE88BA257F2CF300451E6C /* SurroundedXcode.entitlements */,
-			);
-			path = SurroundedXcode;
-			sourceTree = "<group>";
-		};
-		A7DE890A257F2F6700451E6C /* SurroundedCore */ = {
-			isa = PBXGroup;
-			children = (
-				A7DE890C257F2F6700451E6C /* Info.plist */,
-				A7DE892F257F2FAD00451E6C /* SurroundedCore.swift */,
+				DDE71912C9E8842B1A0E8298 /* Info.plist */,
+				924903AC623044EA49C303D4 /* SurroundedCore.swift */,
 			);
 			path = SurroundedCore;
 			sourceTree = "<group>";
 		};
-		A7DE8917257F2F6800451E6C /* SurroundedCoreTests */ = {
+		2D6955D987E0810F0A8F56E8 = {
 			isa = PBXGroup;
 			children = (
-				A7DE8918257F2F6800451E6C /* SurroundedCoreTests.swift */,
-				A7DE891A257F2F6800451E6C /* Info.plist */,
+				6B16B23D1D914D017A341B55 /* Surrounded */,
+				0F0E80F436B9E7B36C569FC7 /* SurroundedCore */,
+				D771C50D5427930C07A35D50 /* SurroundedCoreTests */,
+				BACCECEAA61D78700C2D6E34 /* SurroundedXcode */,
+				008ACBC932F5B90705A2A7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B16B23D1D914D017A341B55 /* Surrounded */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE39430EB8EF6E11F13981 /* Assets.xcassets */,
+				2E5A3AD928FD3534E81B544A /* ContentView.swift */,
+				7B1F2BED52806285303E0A5B /* Info.plist */,
+				84E26EB0C2A232DB0ABF385B /* Surrounded.entitlements */,
+				789885321AA6AC18F60E0F3F /* SurroundedApp.swift */,
+				BF5D99DF7E9BF2466A5D7E67 /* Preview Content */,
+			);
+			path = Surrounded;
+			sourceTree = "<group>";
+		};
+		BACCECEAA61D78700C2D6E34 /* SurroundedXcode */ = {
+			isa = PBXGroup;
+			children = (
+				8C66A2AFE9013A9FF30F7131 /* Info.plist */,
+				BB8042910F7897B3708D1D45 /* SourceEditorCommand.swift */,
+				0EB6160C8A3C0D4671D80122 /* SourceEditorExtension.swift */,
+				2A34A574858F7B8B39E3A118 /* SurroundedXcode.entitlements */,
+			);
+			path = SurroundedXcode;
+			sourceTree = "<group>";
+		};
+		BF5D99DF7E9BF2466A5D7E67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFE98CDA0474F626A68B343E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D771C50D5427930C07A35D50 /* SurroundedCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				47E0BCA61113292D1112522D /* Info.plist */,
+				7F4B8FD8EDEBCFA7FBC5296D /* SurroundedCoreTests.swift */,
 			);
 			path = SurroundedCoreTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		A7DE8904257F2F6700451E6C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		A7DE8895257F2CC900451E6C /* Surrounded */ = {
+		0E4B4FB3D91FD7B570F49CB3 /* SurroundedXcode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7DE88A6257F2CCA00451E6C /* Build configuration list for PBXNativeTarget "Surrounded" */;
+			buildConfigurationList = A4AA36FB9FD87D9BC920B8AE /* Build configuration list for PBXNativeTarget "SurroundedXcode" */;
 			buildPhases = (
-				A7DE8892257F2CC900451E6C /* Sources */,
-				A7DE8893257F2CC900451E6C /* Frameworks */,
-				A7DE8894257F2CC900451E6C /* Resources */,
-				A7DE88C1257F2CF300451E6C /* Embed App Extensions */,
-				A7DE88E3257F2D1400451E6C /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7DE88BC257F2CF300451E6C /* PBXTargetDependency */,
-				A7DE891D257F2F6800451E6C /* PBXTargetDependency */,
-			);
-			name = Surrounded;
-			productName = Surrounded;
-			productReference = A7DE8896257F2CC900451E6C /* Surrounded.app */;
-			productType = "com.apple.product-type.application";
-		};
-		A7DE88AD257F2CF300451E6C /* SurroundedXcode */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7DE88BE257F2CF300451E6C /* Build configuration list for PBXNativeTarget "SurroundedXcode" */;
-			buildPhases = (
-				A7DE88AA257F2CF300451E6C /* Sources */,
-				A7DE88AB257F2CF300451E6C /* Frameworks */,
-				A7DE88AC257F2CF300451E6C /* Resources */,
+				6B356D9DEA76281413F632AC /* Sources */,
 			);
 			buildRules = (
 			);
@@ -268,17 +126,45 @@
 			);
 			name = SurroundedXcode;
 			productName = SurroundedXcode;
-			productReference = A7DE88AE257F2CF300451E6C /* SurroundedXcode.appex */;
+			productReference = 5E3B2055A089A1D4898B7567 /* SurroundedXcode.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
-		A7DE8908257F2F6700451E6C /* SurroundedCore */ = {
+		D159A19B387B0F5EA5473484 /* SurroundedCoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7DE8920257F2F6800451E6C /* Build configuration list for PBXNativeTarget "SurroundedCore" */;
+			buildConfigurationList = A5FDA22AE1350EE21FAE9B2D /* Build configuration list for PBXNativeTarget "SurroundedCoreTests" */;
 			buildPhases = (
-				A7DE8904257F2F6700451E6C /* Headers */,
-				A7DE8905257F2F6700451E6C /* Sources */,
-				A7DE8906257F2F6700451E6C /* Frameworks */,
-				A7DE8907257F2F6700451E6C /* Resources */,
+				9C10610D009A7C16CB011049 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurroundedCoreTests;
+			productName = SurroundedCoreTests;
+			productReference = C77F84346F7E2772FC190950 /* SurroundedCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D966DEB6C6A7F0CAD619B02F /* Surrounded */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573F357E856E370B6582F81F /* Build configuration list for PBXNativeTarget "Surrounded" */;
+			buildPhases = (
+				8B642ADF8237EAE4B6287D5C /* Sources */,
+				FC5B905262614BBE20B3CFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surrounded;
+			productName = Surrounded;
+			productReference = 0A52DEC7A77CE212C014C7DB /* Surrounded.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F442B40D8DF96151DE2BEE2E /* SurroundedCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C7B509445EBA50607B37E7 /* Build configuration list for PBXNativeTarget "SurroundedCore" */;
+			buildPhases = (
+				0F7CD87B3E87CF0DF3CC9217 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -286,169 +172,90 @@
 			);
 			name = SurroundedCore;
 			productName = SurroundedCore;
-			productReference = A7DE8909257F2F6700451E6C /* SurroundedCore.framework */;
+			productReference = 37378096985A875870B118E7 /* SurroundedCore.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		A7DE8910257F2F6800451E6C /* SurroundedCoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7DE8923257F2F6800451E6C /* Build configuration list for PBXNativeTarget "SurroundedCoreTests" */;
-			buildPhases = (
-				A7DE890D257F2F6800451E6C /* Sources */,
-				A7DE890E257F2F6800451E6C /* Frameworks */,
-				A7DE890F257F2F6800451E6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7DE8914257F2F6800451E6C /* PBXTargetDependency */,
-				A7DE8916257F2F6800451E6C /* PBXTargetDependency */,
-			);
-			name = SurroundedCoreTests;
-			productName = SurroundedCoreTests;
-			productReference = A7DE8911257F2F6800451E6C /* SurroundedCoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7DE888E257F2CC900451E6C /* Project object */ = {
+		DA9C76AD19E84C99CA01FEBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					A7DE8895257F2CC900451E6C = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					A7DE88AD257F2CF300451E6C = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					A7DE8908257F2F6700451E6C = {
-						CreatedOnToolsVersion = 12.2;
-						LastSwiftMigration = 1220;
-					};
-					A7DE8910257F2F6800451E6C = {
-						CreatedOnToolsVersion = 12.2;
-					};
 				};
 			};
-			buildConfigurationList = A7DE8891257F2CC900451E6C /* Build configuration list for PBXProject "Surrounded" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = DDD3BEA5333A4BE03E255521 /* Build configuration list for PBXProject "Surrounded" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
-				"zh-Hant",
+				en,
 			);
-			mainGroup = A7DE888D257F2CC900451E6C;
-			productRefGroup = A7DE8897257F2CC900451E6C /* Products */;
+			mainGroup = 2D6955D987E0810F0A8F56E8;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7DE8895257F2CC900451E6C /* Surrounded */,
-				A7DE88AD257F2CF300451E6C /* SurroundedXcode */,
-				A7DE8908257F2F6700451E6C /* SurroundedCore */,
-				A7DE8910257F2F6800451E6C /* SurroundedCoreTests */,
+				D966DEB6C6A7F0CAD619B02F /* Surrounded */,
+				F442B40D8DF96151DE2BEE2E /* SurroundedCore */,
+				D159A19B387B0F5EA5473484 /* SurroundedCoreTests */,
+				0E4B4FB3D91FD7B570F49CB3 /* SurroundedXcode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A7DE8894257F2CC900451E6C /* Resources */ = {
+		FC5B905262614BBE20B3CFC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DE88A1257F2CCA00451E6C /* Preview Assets.xcassets in Resources */,
-				A7DE889E257F2CCA00451E6C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE88AC257F2CF300451E6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE8907257F2F6700451E6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7DE890F257F2F6800451E6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E7EE5BCA0D7D947D94A68F47 /* Assets.xcassets in Resources */,
+				4273E4E789DF893BA535A690 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A7DE8892257F2CC900451E6C /* Sources */ = {
+		0F7CD87B3E87CF0DF3CC9217 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DE889C257F2CC900451E6C /* ContentView.swift in Sources */,
-				A7DE889A257F2CC900451E6C /* SurroundedApp.swift in Sources */,
+				CBF1633F6E5DCE6AF893FD56 /* SurroundedCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7DE88AA257F2CF300451E6C /* Sources */ = {
+		6B356D9DEA76281413F632AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DE88B6257F2CF300451E6C /* SourceEditorExtension.swift in Sources */,
-				A7DE88B8257F2CF300451E6C /* SourceEditorCommand.swift in Sources */,
+				E3548586D6B488265425CFC5 /* SourceEditorCommand.swift in Sources */,
+				F08D98AD2414758EA320925C /* SourceEditorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7DE8905257F2F6700451E6C /* Sources */ = {
+		8B642ADF8237EAE4B6287D5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DE8930257F2FAD00451E6C /* SurroundedCore.swift in Sources */,
+				0C987EB9BC200307ED54F0BA /* ContentView.swift in Sources */,
+				20DC3A1254288BD71AE1F26B /* SurroundedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7DE890D257F2F6800451E6C /* Sources */ = {
+		9C10610D009A7C16CB011049 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DE8919257F2F6800451E6C /* SurroundedCoreTests.swift in Sources */,
+				EE9B0A81F2D29B5E0BFC8A2D /* SurroundedCoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A7DE88BC257F2CF300451E6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7DE88AD257F2CF300451E6C /* SurroundedXcode */;
-			targetProxy = A7DE88BB257F2CF300451E6C /* PBXContainerItemProxy */;
-		};
-		A7DE8914257F2F6800451E6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7DE8908257F2F6700451E6C /* SurroundedCore */;
-			targetProxy = A7DE8913257F2F6800451E6C /* PBXContainerItemProxy */;
-		};
-		A7DE8916257F2F6800451E6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7DE8895257F2CC900451E6C /* Surrounded */;
-			targetProxy = A7DE8915257F2F6800451E6C /* PBXContainerItemProxy */;
-		};
-		A7DE891D257F2F6800451E6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7DE8908257F2F6700451E6C /* SurroundedCore */;
-			targetProxy = A7DE891C257F2F6800451E6C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		A7DE88A4257F2CCA00451E6C /* Debug */ = {
+		3051D70F95445AECEBCDC2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -490,8 +297,8 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -499,17 +306,141 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A7DE88A5257F2CCA00451E6C /* Release */ = {
+		4852A66AE8D5F208B68C6348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SurroundedCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCoreTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BAB7AD1B1EEE9691167394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surrounded/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.Surrounded;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CC42135496AD7EA651B3096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SurroundedCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		AF9D4FF8D489F8F9293AA184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surrounded/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.Surrounded;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE43362555BD8458119C538C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SurroundedXcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedXcode;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D234EC5840C7756437327AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SurroundedCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D34B0DF5ED8DD024E6ABBD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SurroundedXcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedXcode;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F07572052D47B4B6B02B118D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,255 +485,82 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		A7DE88A7257F2CCA00451E6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Surrounded/Surrounded.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Surrounded/Preview Content\"";
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Surrounded/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.Surrounded;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A7DE88A8257F2CCA00451E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Surrounded/Surrounded.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Surrounded/Preview Content\"";
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Surrounded/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.Surrounded;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		A7DE88BF257F2CF300451E6C /* Debug */ = {
+		FB0576B39311D36F669F5DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SurroundedXcode/SurroundedXcode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SurroundedXcode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.Surrounded.SurroundedXcode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A7DE88C0257F2CF300451E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SurroundedXcode/SurroundedXcode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SurroundedXcode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.Surrounded.SurroundedXcode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		A7DE8921257F2F6800451E6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SurroundedCore/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A7DE8922257F2F6800451E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SurroundedCore/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A7DE8924257F2F6800451E6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
 				INFOPLIST_FILE = SurroundedCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A7DE8925257F2F6800451E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				INFOPLIST_FILE = SurroundedCoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.SurroundedCoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7DE8891257F2CC900451E6C /* Build configuration list for PBXProject "Surrounded" */ = {
+		573F357E856E370B6582F81F /* Build configuration list for PBXNativeTarget "Surrounded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7DE88A4257F2CCA00451E6C /* Debug */,
-				A7DE88A5257F2CCA00451E6C /* Release */,
+				5BAB7AD1B1EEE9691167394D /* Debug */,
+				AF9D4FF8D489F8F9293AA184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A7DE88A6257F2CCA00451E6C /* Build configuration list for PBXNativeTarget "Surrounded" */ = {
+		91C7B509445EBA50607B37E7 /* Build configuration list for PBXNativeTarget "SurroundedCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7DE88A7257F2CCA00451E6C /* Debug */,
-				A7DE88A8257F2CCA00451E6C /* Release */,
+				D234EC5840C7756437327AE4 /* Debug */,
+				5CC42135496AD7EA651B3096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A7DE88BE257F2CF300451E6C /* Build configuration list for PBXNativeTarget "SurroundedXcode" */ = {
+		A4AA36FB9FD87D9BC920B8AE /* Build configuration list for PBXNativeTarget "SurroundedXcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7DE88BF257F2CF300451E6C /* Debug */,
-				A7DE88C0257F2CF300451E6C /* Release */,
+				CE43362555BD8458119C538C /* Debug */,
+				D34B0DF5ED8DD024E6ABBD53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A7DE8920257F2F6800451E6C /* Build configuration list for PBXNativeTarget "SurroundedCore" */ = {
+		A5FDA22AE1350EE21FAE9B2D /* Build configuration list for PBXNativeTarget "SurroundedCoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7DE8921257F2F6800451E6C /* Debug */,
-				A7DE8922257F2F6800451E6C /* Release */,
+				4852A66AE8D5F208B68C6348 /* Debug */,
+				FB0576B39311D36F669F5DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A7DE8923257F2F6800451E6C /* Build configuration list for PBXNativeTarget "SurroundedCoreTests" */ = {
+		DDD3BEA5333A4BE03E255521 /* Build configuration list for PBXProject "Surrounded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7DE8924257F2F6800451E6C /* Debug */,
-				A7DE8925257F2F6800451E6C /* Release */,
+				3051D70F95445AECEBCDC2EF /* Debug */,
+				F07572052D47B4B6B02B118D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A7DE888E257F2CC900451E6C /* Project object */;
+	rootObject = DA9C76AD19E84C99CA01FEBB /* Project object */;
 }

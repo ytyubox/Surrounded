@@ -1,0 +1,28 @@
+name: Surrounded
+options:
+  bundleIdPrefix: com.ytyubox
+  deploymentTarget:
+    macOS: "10.15"
+targets:
+  Surrounded:
+    type: application
+    platform: macOS
+    deploymentTarget: "10.15"
+    sources: [Surrounded]
+  SurroundedCore:
+    type: framework
+    platform: macOS
+    scheme: 
+      testTargets:
+        - SurroundedCoreTests
+    sources: [SurroundedCore]
+  SurroundedCoreTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: SurroundedCoreTests
+    setting: none
+      TEST_HOST
+  SurroundedXcode:
+    type: xcode-extension
+    platform: macOS
+    sources: [SurroundedXcode]
